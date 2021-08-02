@@ -1,0 +1,30 @@
+{
+  "name": "authblog-new",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "DEBUG=authblog-new:* nodemon server.js",
+    "dev-win": "set DEBUG=authblog-new:* & nodemon server.js"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.5",
+    "connect-mongo": "^4.4.1",
+    "cookie-parser": "~1.4.5",
+    "debug": "~4.3.2",
+    "express": "~4.17.1",
+    "express-mongo-sanitize": "^2.1.0",
+    "express-session": "^1.17.2",
+    "http-errors": "~1.8.0",
+    "mongoose": "^5.13.3",
+    "morgan": "~1.10.0",
+    "node-sass-middleware": "0.11.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0",
+    "pug": "3.0.2"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
