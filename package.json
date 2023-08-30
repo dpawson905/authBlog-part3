@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@sendgrid/mail": "^7.4.5",
-    "connect-mongo": "^4.4.1",
+    "connect-mongo": "^4.6.0",
     "cookie-parser": "~1.4.5",
     "debug": "~4.3.2",
     "express": "~4.17.1",
